@@ -11,6 +11,9 @@ credits to joselol for making builder
 what does LO$R Logger steal?
 
 Roblox info 
+
 Ip Info 
+
 Stored Passwords 
+
 token logging soon
