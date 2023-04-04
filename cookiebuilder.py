@@ -18,7 +18,7 @@ Write.Print(Center.XCenter("""
                      \_  $$_/                                      /$$  \ $$ /$$  \ $$                    
                        \__/                                       |  $$$$$$/|  $$$$$$/                    
                                                                    \______/  \______/                                                                                                               
-                                                                    made by ! LO$R#0001\n"""), Colors.orange_to_purple, interval=0)
+                                                                    made by ! LO$R#0001\n"""), Colors.blue_to_purple, interval=0)
 webhook = Write.Input("\nEnter webhook URL:", Colors.green_to_blue, interval=0.01)
 r = requests.get(webhook)
 if r.status_code == 200:
