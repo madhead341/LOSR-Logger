@@ -27,7 +27,7 @@ token logging soon
 ## Contact
 ! LO$R#0001 on discord
 
-discord.gg/leaking
+https://discord.gg/leaking
 
 
 # THIS IS ALL FOR EDUCATIONAL PURPOSES ONLY! I AM NOT RESPONSIBLE FOR ANY MALICIOUS USE OF THIS PROGRAM
