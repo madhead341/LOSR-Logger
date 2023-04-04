@@ -18,7 +18,7 @@ Stored Passwords
 token logging soon
 # PREVIEW
 
-[![Screenshot-2023-04-05-00-57-18.png](https://i.postimg.cc/pr5qzbrk/Screenshot-2023-04-05-00-57-18.png)](https://postimg.cc/N2Y6vn1r)
+[![Screenshot-2023-04-05-01-06-25.png](https://i.postimg.cc/RVrjdXmq/Screenshot-2023-04-05-01-06-25.png)](https://postimg.cc/PN43rbPk)
 
 ## Contact
 ! LO$R#0001 on discord
