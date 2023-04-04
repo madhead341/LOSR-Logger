@@ -17,7 +17,8 @@ Stored Passwords
 
 token logging soon
 # PREVIEW
-[PREVIEW](https://user-images.githubusercontent.com/106779656/229940312-6b6bb894-4d26-4e66-80cf-e27f09e694ec.png)
+
+[![Screenshot-2023-04-05-00-57-18.png](https://i.postimg.cc/pr5qzbrk/Screenshot-2023-04-05-00-57-18.png)](https://postimg.cc/N2Y6vn1r)
 
 ## Contact
 ! LO$R#0001 on discord
