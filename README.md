@@ -1,4 +1,4 @@
-# LO$R Logger
+# LO$R Logger (BROKEN)
 good Cookie stealer
 
 run install.bat
