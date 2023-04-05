@@ -3,6 +3,8 @@
 # LO$R Logger
 Simple Cookie stealer made in python. Used some other ppl's code for some parts.
 
+thanks to https://github.com/Mani175/ for the idea of making a cookie stealer and for some of the parts in the code of stub.py
+
 
 ## STEPS
   1. run install.bat
