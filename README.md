@@ -11,7 +11,9 @@ good Cookie stealer
 
 ## what does LO$R Logger steal?
   Roblox info 
+  
   Ip Info
+  
   Stored Passwords 
 
 token logging soon
