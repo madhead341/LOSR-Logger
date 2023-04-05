@@ -1,5 +1,7 @@
+# THIS IS ALL FOR EDUCATIONAL PURPOSES ONLY! I AM NOT RESPONSIBLE FOR ANY MALICIOUS USE OF THIS PROGRAM
+
 # LO$R Logger
-good Cookie stealer
+Simple Cookie stealer made in python. Used some other ppl's code for some parts.
 
 
 ## STEPS
