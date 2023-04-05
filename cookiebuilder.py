@@ -6,7 +6,7 @@ import os
 import time
 import shutil
 os.system(f'cls & title LO$R Logger Builder!')
-print(Center.XCenter("""
+Write.Print(Center.XCenter("""
  /$$        /$$$$$$     /$$    /$$$$$$$        /$$                                                        
 | $$       /$$__  $$  /$$$$$$ | $$__  $$      | $$                                                        
 | $$      | $$  \ $$ /$$__  $$| $$  \ $$      | $$        /$$$$$$   /$$$$$$   /$$$$$$   /$$$$$$   /$$$$$$ 
