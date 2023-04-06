@@ -18,7 +18,7 @@ thanks to https://github.com/Mani175/ for the idea of making a cookie stealer an
   
   Ip Info
   
-  Stored Passwords 
+  Stored Passwords soon
 
 token logging soon
 # PREVIEW
