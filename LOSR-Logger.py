@@ -2,6 +2,7 @@ import marshal
 import zlib
 import requests
 from pystyle import *
+import pygame
 import os
 import time
 import shutil
@@ -10,19 +11,20 @@ import time
 import json
 import threading
 from tkinter import Tk
-def music():
-    """Plays music in the background."""
-    current_dir = os.path.dirname(os.path.realpath(__file__))
-    song_dir = current_dir + "/assets/music/"
-    random_song = random.choice(os.listdir(song_dir))
 
-    song = song_dir + random_song
+music_dir = "assets/music"
 
-    mixer.init()
-    mixer.music.load(song)
-    mixer.music.play()
-    while mixer.music.get_busy():
-        pass
+pygame.mixer.init()
+
+music_files = [os.path.join(music_dir, f) for f in os.listdir(music_dir) if f.endswith(".mp3")]
+
+for file in music_files:
+    pygame.mixer.music.load(file)
+    pygame.mixer.music.queue(file)
+
+pygame.mixer.music.play()
+
+random.shuffle(pygame.mixer.music.get_queue())
 
 os.system(f'cls & title LO$R Logger Builder!')
 Write.Print(Center.XCenter("""
