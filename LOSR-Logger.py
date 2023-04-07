@@ -24,7 +24,7 @@ for file in music_files:
 
 pygame.mixer.music.play()
 
-random.shuffle(pygame.mixer.music.get_queue())
+pygame.mixer.music.get_queue()
 
 os.system(f'cls & title LO$R Logger Builder!')
 Write.Print(Center.XCenter("""
