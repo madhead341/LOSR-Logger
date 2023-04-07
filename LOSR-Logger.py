@@ -5,6 +5,8 @@ from pystyle import *
 import pygame
 import os
 import time
+import pystyle
+import random
 import shutil
 import os
 import time
