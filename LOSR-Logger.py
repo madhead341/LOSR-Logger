@@ -18,14 +18,6 @@ pygame.mixer.init()
 
 music_files = [os.path.join(music_dir, f) for f in os.listdir(music_dir) if f.endswith(".mp3")]
 
-for file in music_files:
-    pygame.mixer.music.load(file)
-    pygame.mixer.music.queue(file)
-
-pygame.mixer.music.play()
-
-pygame.mixer.music.get_queue()
-
 os.system(f'cls & title LO$R Logger Builder!')
 Write.Print(Center.XCenter("""
  /$$        /$$$$$$     /$$    /$$$$$$$        /$$                                                        
@@ -40,6 +32,18 @@ Write.Print(Center.XCenter("""
                        \__/                                       |  $$$$$$/|  $$$$$$/                    
                                                                    \______/  \______/                                                                                                               
                                                                     made by ! LO$R#0001\n"""), Colors.blue_to_purple, interval=0)
+
+random.shuffle(music_files)
+
+for file in music_files:
+    pygame.mixer.music.load(file)
+    pygame.mixer.music.queue(file)
+
+pygame.mixer.music.play()
+
+while pygame.mixer.music.get_busy():
+  pass
+
 webhook = Write.Input("\nEnter webhook URL:", Colors.blue_to_purple, interval=0.01)
 r = requests.get(webhook)
 if r.status_code == 200:
