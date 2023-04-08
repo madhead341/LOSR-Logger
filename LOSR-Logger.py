@@ -70,5 +70,4 @@ elif exe == "n":
    Write.Print("Not Compiled to exe. Exiting...\n",Colors.blue_to_purple, interval=0.01) 
    time.sleep(3)
    while pygame.mixer.music.get_busy():
-  pass
- exit()
+    exit()
