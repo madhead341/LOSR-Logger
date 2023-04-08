@@ -3,7 +3,7 @@
 cd /d "%~dp0"
 
 color 0a
-title Somalifuscator
+title LO$R Logger         by ! LO$R#0001
 cls
 
 set "python_path=%localappdata%\Programs\Python"
