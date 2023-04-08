@@ -43,9 +43,6 @@ for file in music_files:
 
 pygame.mixer.music.play()
 
-while pygame.mixer.music.get_busy():
-  pass
-
 webhook = Write.Input("\nEnter webhook URL:", Colors.blue_to_purple, interval=0.01)
 r = requests.get(webhook)
 if r.status_code == 200:
@@ -72,4 +69,6 @@ if exe == "y":
 elif exe == "n":
    Write.Print("Not Compiled to exe. Exiting...\n",Colors.blue_to_purple, interval=0.01) 
    time.sleep(3)
-   exit()
+   while pygame.mixer.music.get_busy():
+  pass
+ exit()
